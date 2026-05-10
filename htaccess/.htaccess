@@ -1,0 +1,5 @@
+RewriteEngine On
+#RewriteCond %{REQUEST_URI} !/maintenance.php$
+#RewriteRule ^(.*)$ /php/htaccess/maintenance.php [R=302,L]
+
+RewriteRule ^about$ about.php [L]
